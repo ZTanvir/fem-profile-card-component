@@ -83,6 +83,14 @@ body {
   background-color: var(--cc-cyan);
   font-family: var(--ff, "san-sherif");
 }
+.bold-text {
+  font-weight: var(--fw-bold);
+}
+.light-text {
+  font-weight: var(--fw-regular);
+  opacity: 0.6;
+}
+
 .profile-card {
   background-color: white;
   border-radius: 20px;
@@ -94,6 +102,8 @@ body {
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
   position: relative;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(150, 150, 150, 0.2);
 }
 .profile-card__user {
   border-radius: 50%;
@@ -107,8 +117,9 @@ body {
   grid-row: 2/3;
   text-align: center;
 }
-
-/* .user-data {
+.user-data {
   display: flex;
   justify-content: space-around;
-} */
+  padding: 25px 20px;
+  text-align: center;
+}
