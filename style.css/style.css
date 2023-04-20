@@ -68,4 +68,12 @@ h6 {
   isolation: isolate;
 }
 :root {
+  --cc-cyan: hsl(185, 75%, 39%);
+  --cc-db: hsl(229, 23%, 23%);
+  --cc-gb: hsl(227, 10%, 46%);
+  --cc-gray: hsl(0, 0%, 59%);
+
+  --ff: "Kumbh Sans";
+  --fw-bold: 800;
+  --fw-regular: 400;
 }
