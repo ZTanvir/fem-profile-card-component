@@ -77,3 +77,7 @@ h6 {
   --fw-bold: 800;
   --fw-regular: 400;
 }
+body {
+  display: grid;
+  place-items: center;
+}
