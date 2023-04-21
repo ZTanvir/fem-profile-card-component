@@ -82,9 +82,14 @@ body {
   place-items: center;
   background-color: var(--cc-cyan);
   font-family: var(--ff, "san-sherif");
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: top -500px left -250px, bottom -500px right -300px;
+  background-repeat: no-repeat;
 }
 .bold-text {
   font-weight: var(--fw-bold);
+  color: var(--cc-db);
 }
 .light-text {
   font-weight: var(--fw-regular);
